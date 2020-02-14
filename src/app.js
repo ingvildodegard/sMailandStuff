@@ -25,7 +25,6 @@ var localConfig = authUtil.getLocalConfig();
 log.info('Local config prepared using: ' + localConfig.CLIENTID + ' as clientID');
 log.info('Hostname ', localConfig.hostDomainName);
 
-
 var OIDCStrategy = require('passport-azure-ad').OIDCStrategy;
 
 //
